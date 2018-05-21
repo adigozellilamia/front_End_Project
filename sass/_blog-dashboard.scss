@@ -1,0 +1,310 @@
+.cards{
+    .cards-box{
+        background-color: white;
+        padding: 30px 15px 15px;
+        .cards-tittle{
+            text-align: center;
+            .tittle{
+                display: block;
+                color: #7863a0;
+                font-weight: 300;
+            }
+            .value{
+                display: block;
+                font-size: 24px;
+                color: #111;
+                font-weight: 300;
+
+            }
+        }
+        .content-progress{
+           
+            .percent {
+                top: 63px;
+                left: 63px;
+                i{
+                    color: #333;
+                    font-size: 45px;
+                    opacity: 0.75;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                }
+            }
+            
+        }
+        .progress-footer{
+            .percent-tittle{
+                display: inline-block;
+                text-align: left;
+                p{
+                    display: block;
+                    color: #888;
+                    font-size: 11px;
+
+                    i{
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    i.fa-arrow-down{
+                        color: #a94442;
+                    }
+                }
+                span{
+                    display: inline-block;
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: #333;
+                }
+            }
+        }
+    }
+    
+}
+.new-container>.col-md-3:nth-child(1) .progress-body {
+    border: 3px solid #13b42b;
+    border-radius: 100%;
+    border-left-color: #e5e5e5;
+    transform: rotateZ(330deg); 
+}
+.new-container>.col-md-3:nth-child(1) .progress-body .percent{
+    transform: rotateZ(-330deg); 
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    text-align: center;
+}
+.new-container>.col-md-3:nth-child(2) .progress-body{
+    border: 3px solid #e5e5e5;
+    border-radius: 100%;
+    border-top-color: #209ca9;
+    transform: rotateZ(305deg);
+}
+.new-container>.col-md-3:nth-child(2) .progress-body .percent{
+    transform: rotateZ(-305deg); 
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    text-align: center;
+}
+.new-container>.col-md-3:nth-child(3) .progress-body{
+    border: 3px solid #e5e5e5;
+    border-radius: 100%;
+    border-top-color: #6f21c0;
+    transform: rotateZ(305deg); 
+}
+.new-container>.col-md-3:nth-child(3) .progress-body .percent{
+    transform: rotateZ(-305deg); 
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    text-align: center;
+}
+.new-container>.col-md-3:nth-child(4) .progress-body{
+    border: 3px solid #e31e62;
+    border-radius: 100%;
+    border-left-color: #e5e5e5;
+    transform: rotateZ(330deg);
+}
+.new-container>.col-md-3:nth-child(4) .progress-body .percent{
+    transform: rotateZ(-60deg); 
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    text-align: center;
+}
+
+.visits{
+    .site-visite{
+        background-color: white;
+
+    }
+    .user-list{
+        background-color: white;
+        .user-search{
+            padding: 0 15px 15px 15px;
+            position: relative;
+            input{
+                padding: 5px 10px;
+                border-radius: 15px;
+                border: solid 1px #e7e7e7;
+                width: 85%;
+            }
+            input:hover{
+                
+                padding: 5px 10px;
+                border-radius: 15px;
+                border: solid 1px #e7e7e7;
+                
+                border:1px solid #00daf6;
+                transition: all 0.275s ease-in-out;
+                border-radius: 15px;
+            }
+            i{
+                position: absolute;
+                font-size: 14px;
+                color: #333;
+                top: 10px;
+                right: 30px;
+
+            }
+            input:focus{
+                width: 100%;
+                outline: transparent;
+                border:1px solid #00a0b4;
+            }
+        }
+        .project-content{
+            max-height: 100%;
+            overflow-y: auto;
+            .profile{
+                position: relative;
+                
+            }
+            .profile::after{
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                /* background-color: black; */
+                border-radius: 100%;
+                bottom: 3px;
+                right: 3px;
+                background-color: #13b42b;
+                z-index: 3;
+            }
+
+        }
+    }
+    .site-visite{
+        .site-head{
+            padding: 15px;
+            font-weight:300 ;
+            .left{
+                p{
+                    display: block;
+                }
+                .tittle{
+                    font-size: 18px;
+                }
+                .text{
+                    font-size: 13px;
+                }
+            }
+            .right{
+                .navbar-top{
+                    .dropdowns{
+                        .dropdown-toggles{
+                            font-size: 13px;
+                            color: #e31e62;
+                            border-color: transparent;
+                            background-color: transparent
+                        }
+                        :hover{
+                            color: #aa1548;
+                            border-color: transparent;
+                            background-color: transparent
+                        }
+                    }
+                }
+            }
+            
+            
+        }
+        .chart{
+            padding: 15px;
+            canvas{
+                display: block;
+                width: 100%;
+                height: 300px;
+                
+            }
+        }
+        
+    }
+}
+.traffic-source{
+    // padding-bottom: 25px;
+    .trafic{
+        background-color: white;
+        max-height: 100%;
+        padding-bottom: 31px;
+        .trffic-content{
+            padding: 15px;
+            canvas{
+                display: block;
+                width: 306px;
+                height: 170px;
+            }
+        }
+        .traffic-footer{
+            .list{
+                width: 100%;
+                height: 100%;
+                float: left;
+                position: relative;
+                padding: 5px 15px;
+                color: #333;
+                font-size: 13px;
+
+                .name{
+                    font-weight: 300;
+                    padding-left: 15px;
+                }
+
+                span{
+                    width: 7px;
+                    height: 7px;
+                    position: absolute;
+                    top: 10px;
+                    left: 15px;
+                }
+                .percent{
+                    font-weight: 500;
+                }
+
+            }
+        }
+        
+    }
+}
+.sales-static{
+    background-color: white;
+    .sales-content{
+        padding: 15px;
+        text-align: center;
+        font-size: 70px;
+        opacity: 0.7;
+        
+    }
+    .sales-footer{
+        padding-bottom: 22px;
+        .progress-element{
+            p{
+                padding: 5px 1rem;
+                width: 100%;
+            }
+        }
+    }
+    .sales-footer .progress-element:nth-child(1) .progress .progress-bar{
+        width: 2%;
+    }
+    .sales-footer .progress-element:nth-child(2) .progress .progress-bar{
+        width: 37.7%;
+    }
+    .sales-footer .progress-element:nth-child(3) .progress .progress-bar{
+        width: 33.1%;
+    }
+    .sales-footer .progress-element:nth-child(4) .progress .progress-bar{
+        width: 30.2%;
+    }
+}

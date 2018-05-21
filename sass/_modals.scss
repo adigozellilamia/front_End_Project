@@ -1,0 +1,227 @@
+
+.modals{
+    .modals-content{
+        .modals-content-list{
+            width: 60%;
+            border-radius: 5px;
+            border: 1px solid #999;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            .modals-element{
+                font-weight: 300;
+                p{
+                    display: block;
+                    border-bottom: 1px solid $grey;
+                }
+                .tittle{
+                    padding: 20px;
+                    font-size: 18px;
+                    
+                }
+                .text{
+                    padding: 20px;
+                }
+                i{
+                    padding: 20px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: $grey;
+                }
+                i:hover{
+                    color: #333;
+                    transition: all 0.275s ease-in-out;
+                }
+                .btn{
+                    padding: 15px;
+                    button{
+                        font-weight: 500;
+                        margin-right:5px; 
+                        padding: 10px 20px;
+                        font-size: 13px;
+                        border-radius: 2px;  
+                        background-color: white;
+                        border:1px solid $grey;
+                    }
+                    button.btn-close{
+                        border: none;
+                    }
+                    button.btn-close:hover{
+                        color: #fff;
+                        box-shadow: 0 0 0 4px rgba(0, 189, 213, 0.3);
+                        border-color: #00daf6;
+                        background-color: #00daf6;
+                        transition: all 0.275s ease-in-out;
+                    }
+                    button:focus{
+                        outline: none;
+                    }  
+                }
+                  
+            }
+            
+        }
+    }
+    .demo-button{
+        text-align: center;
+        .btn-tooltips{
+            padding: 10px 25px;
+            height: 40px;
+            border-radius: 2px;
+            font-weight: 500;
+            color: #fff;
+        }
+        
+    }
+    
+}
+.popovers-element.center{
+    text-align: center;
+    .demo-button{
+        .btn-tooltips{
+            height: 40px;
+            margin: 10px 15px;
+            
+        }
+       
+    }  
+}
+.absolute{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 6;
+    top: 0;
+    left: 0;background-color: black;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 6;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        background-color: black;
+        
+    
+    }
+    .modals-element{
+        position: absolute;
+        width: 70%;
+        top: 50px;
+        left: 215px;
+        margin: auto;
+        font-weight: 300;
+        z-index: 99;
+        border-radius: 3px;
+        animation: fade-modals-element 0.3s ;
+        animation-iteration-count: 1;
+        @keyframes fade-modals-element {
+            0%{
+               transform: translateY(-50px);
+               opacity:0;
+            }
+            20%{
+                transform: translateY(-40px);
+                opacity:0.2;
+            }
+            40%{
+                transform: translateY(-30px);
+                opacity:0.4;
+            }
+            60%{
+                transform: translateY(-20px);
+                opacity:0.6;
+            }
+            80%{
+                transform: translateY(-10px);
+                opacity:0.8;
+            }
+            100% {
+             transform: translateY(0px) ;
+             opacity:1;
+            }
+         }
+        p{
+            display: block;
+            border-bottom: 1px solid $grey;
+        }
+        .tittle{
+            padding: 20px;
+            font-size: 18px;
+            
+        }
+        .text{
+            padding: 20px;
+        }
+        i{
+            padding: 20px;
+            font-weight: 600;
+            font-size: 20px;
+            color: $grey;
+        }
+        i:hover{
+            color: #333;
+            transition: all 0.275s ease-in-out;
+        }
+        .btn{
+            padding: 15px;
+            button{
+                font-weight: 500;
+                margin-right:5px; 
+                padding: 10px 20px;
+                font-size: 13px;
+                border-radius: 2px;  
+                background-color: inherit;
+                border:1px solid $grey;
+                border: none;
+            }
+            button.btn-close:hover{
+                color: #fff;
+                box-shadow: 0 0 0 4px rgba(0, 189, 213, 0.3);
+                border-color: #00daf6;
+                background-color: #00daf6;
+                transition: all 0.275s ease-in-out;
+            }
+            button.btn-saveChanges:hover{
+                color: #fff;
+                box-shadow: 0 0 0 4px rgba(19, 180, 43, 0.3);
+                background-color: #16d232;
+                border-color: #16d232;
+                transition: all 0.275s ease-in-out;
+            }
+            button:focus{
+                outline: none;
+            }        
+        }   
+    }
+    
+}
+.absolute.lg{
+    .modals-element{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+.absolute.df{
+    .modals-element{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+.absolute.sm{
+    .modals-element{
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+

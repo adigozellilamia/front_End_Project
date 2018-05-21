@@ -1,0 +1,79 @@
+.badges{
+    .panels-lists{
+        border:none;
+        padding: 10px;
+    }
+    .progress-element{
+        .progress-tittle{
+            p{
+                font-size: 16px;
+                padding:0 0.8rem 0.8rem 0;
+                width: 100%;
+            }
+        }
+        .progress{
+            width: 100%;
+        }
+        
+    }
+}
+.demo-content-list .panels-lists:nth-child(1) .progress-element .progress .progress-bar{
+    width: 60%;
+}
+.demo-content-list .panels-lists:nth-child(2) .progress-element .progress .progress-bar{
+    width: 60%;
+
+}
+.demo-content-list .panels-lists:nth-child(3) .progress-element .progress .progress-bar{
+    width: 20%;
+}
+.demo-content-list .panels-lists:nth-child(4) .progress-element .progress .progress-bar{
+    width: 40%;
+}
+.demo-content-list .panels-lists:nth-child(5) .progress-element .progress .progress-bar{
+    width: 80%;
+}
+.demo-content-list .panels-lists:nth-child(6) .progress-element .progress .progress-bar{
+    width: 30%;
+}
+.demo-content-list .panels-lists:nth-child(7) .progress-element .progress .progress-bar{
+    width: 30%;
+}
+.demo-content-list .panels-lists .progress-element .progress .progress-bar.animate{
+    animation: progres-bar-animation 1s ease infinite;
+    @keyframes progres-bar-animation {
+        0% {
+            transform: translateX(-203px);
+        }
+        10% {
+            transform: translateX(-100px);
+        }
+        20% {
+            transform: translateX(0px);
+        }
+        30% {
+            transform: translateX(50px);
+        }
+        40% {
+            transform: translateX(100px);
+        }
+        50% {
+            transform: translateX(150px);
+        }
+        60% {
+            transform: translateX(200px);
+        }
+        70% {
+            transform: translateX(250px);
+        }
+        80% {
+            transform: translateX(300px);
+        }
+        90% {
+            transform: translateX(400px);
+        }
+        100% {
+            transform: translateX(508px);
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.maps .map-information{
+    padding: 15px;
+}
+.maps .map-information .map-head{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+  
+}
+.maps .map-information .map-summary{
+    display: block;
+    font-size: 13px;
+    color: #888;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+.maps .map-summary span{
+    color: #3c763d;
+    font-size: 32px;
+} 
+.maps .map-information .map-summary span i{
+    font-size: 17px;
+    padding-right:10px;
+}
+.maps .map-footer{
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    left: 33px;
+}
+.maps .map-footer .map-list{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 20px 200px 20px 0px;
+}
+.maps .map-footer .map-list span{
+    display: block;
+}
+.maps .map-footer .map-list .map-tittle{
+    display: block;
+    color: #888;
+    font-size: 11px;
+}
+.maps .map-footer .map-value{
+    font-size: 24px;
+    color: #00bdd5;
+    font-weight: 500;
+}
+#demo-jqvmap{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}
+.google-map #demo-jqvmap .jqvmap-zoomin,
+.google-map #demo-jqvmap .jqvmap-zoomout{
+    left: none!important;
+    right: 0px!important;
+    border-radius: 0px;
+    padding: 7px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+    background: #333;
+}
+.google-map #demo-jqvmap .jqvmap-zoomin{
+    top: 25px;
+}
+.google-map #demo-jqvmap .jqvmap-zoomout{
+    top: 65px;
+}
+.recent{
+    padding: 25px;
+}
+.recent .recent-sales{
+    /* margin-right: 5px; */
+    
+}
+.recent-table{
+    width: 100%;
+    /* margin: 15px 20px; */
+}
+.recent-table th,
+.recent-table td{
+    padding: 15px 8px;
+}
+.recent-sales .tables{
+    height: 425px;
+    overflow-x: auto;
+}
+.recent-table td:first-child,
+.recent-table th:first-child{
+    padding-left: 0;
+    
+}
+.recent-table .table-body .table-row,
+.recent-table .table-head .table-row{
+    border-bottom: 1px solid #e7e7e7;
+    
+}
+.recent-table .table-head .table-row th{
+    color: #888;
+    font-weight: 300;
+}
+.recent-table .table-body .table-row td{
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
+}

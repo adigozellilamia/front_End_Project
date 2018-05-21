@@ -1,0 +1,49 @@
+.alerts{
+    .demo-content{
+        .demo-content-list{
+            width: 90%;
+            padding: 50px 20px;
+            .demo-list{
+                padding: 15px;
+                width: 100%;
+                text-align: left;
+            }
+        }
+        .demo-alert{
+            font-weight: 300;
+            .tittle{
+                padding: 15px;
+                font-size: 18px;
+                
+            }
+            .text{
+                padding: 15px;
+            }
+            i{
+                padding: 15px;
+                font-weight: 600;
+                font-size: 20px;
+                color: $grey;
+            }
+            i:hover{
+                color: #333;
+                transition: all 0.275s ease-in-out;
+            }
+            .btn{
+                padding: 15px;
+                button{
+                    margin-right:5px; 
+                    padding: 10px 20px;
+                    font-size: 13px;
+                    border-radius: 2px;  
+                    background-color: white;
+                    border:1px solid $grey;
+                }
+                button:focus{
+                    outline: none;
+                }        
+            }
+            
+        }
+    }
+}

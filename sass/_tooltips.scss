@@ -1,0 +1,93 @@
+
+.tooltips{
+    .tooltips-content{
+        .demo-content-list{
+            .tooltips-element{
+                font-size: 13px;
+                font-weight: 300;
+                padding: 50px 15px;
+                .tooltips-tittle{
+                    margin-bottom: 20px;
+                    p{
+                        font-weight: 500;
+                    }
+                }
+                .tooltips-input{
+                    margin-bottom: 20px;
+                    width: 100%;
+                }
+                .tooltips-checkbox{
+                    margin-bottom: 20px;
+                    width: 100%;
+                }
+                .demo-button{
+                    .btn-tooltips{
+                        padding: 10px 25px;
+                        // width: 100px;
+                        height: 40px;
+                        border-radius: 2px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+                
+            }
+            .tooltips-element.center{
+                text-align: center;
+                .demo-button{
+                    .btn-tooltips{
+                        width: 150px;
+                        margin: 10px 15px;
+                    }                   
+                }  
+            }
+        }
+    }
+    
+    
+}
+.btn-tooltips.br-green:hover{
+    box-shadow: 0 0 0 4px rgba(19, 180, 43, 0.3);
+    color: #fff!important;
+    background-color: #16d232;
+    border-color: #16d232;
+    transition: all 0.3s ease-in-out;
+}
+.btn-tooltips.br-violet:hover{
+    box-shadow: 0 0 0 4px rgba(120, 99, 160, 0.3);
+    color: #fff!important;
+    border-color: #8a78ad;
+    background-color: #8a78ad;
+    transition: all 0.3s ease-in-out;
+}
+.btn-tooltips.br-dk-blue:hover{
+    box-shadow: 0 0 0 4px rgba(32, 156, 169, 0.3);
+    color: #fff!important;
+    border-color: #25b6c5;
+    background-color: #25b6c5;
+    transition: all 0.3s ease-in-out;
+}
+.btn-tooltips.br-blue:hover{
+    box-shadow: 0 0 0 4px rgba(0, 189, 213, 0.3);
+    color: #fff!important;
+    border-color: #00daf6;
+    background-color: #00daf6;
+    transition: all 0.3s ease-in-out;
+}
+.btn-tooltips.br-org:hover{
+    box-shadow: 0 0 0 4px rgba(236, 83, 31, 0.3);
+    color: #fff!important;
+    border-color: #ef6a3e;
+    background-color: #ef6a3e;
+    transition: all 0.3s ease-in-out;
+}
+.btn-tooltips.br-rose:hover{
+    box-shadow: 0 0 0 4px rgba(227, 30, 98, 0.3);
+    color: #fff!important;
+    border-color: #e73b77;
+    background-color: #e73b77;
+    transition: all 0.3s ease-in-out;
+}
+.btn-tooltips:focus{
+    outline: none;
+}

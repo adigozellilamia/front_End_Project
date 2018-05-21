@@ -1,0 +1,136 @@
+
+.charts{
+    .chart-content{
+        .chart-content-list{
+            width: 55%;
+            border-radius: 2px;
+            padding: 15px;
+            .chart{
+                margin: auto;
+                canvas{
+                    display: block;
+                    width: 500px;
+                    height: 205px;
+                    padding: 15px 70px;
+                }            
+            }
+            
+        }
+    }
+    .line-chart{ 
+        .chart-content-list{
+            width: 90%;
+            border-radius: 2px;
+            margin: auto;
+            .chart{
+                margin: auto;
+                canvas{
+                    display: block;
+                    width: 500px;
+                    height: 250px;
+                    padding: 15px 70px;
+                    margin: auto;
+                }
+            }   
+        }
+    }
+    .bar-chart{ 
+        .chart-content-list{
+            width: 90%;
+            border-radius: 2px;
+            margin: auto;
+            .chart{
+                margin: auto;
+                canvas{
+                    display: block;
+                    width: 500px;
+                    height: 250px;
+                    padding: 15px 70px;
+                    margin: auto;
+                }
+            }
+            
+        }
+    }
+    .radar-chart{ 
+        .chart-content-list{
+            width: 90%;
+            border-radius: 2px;
+            margin: auto;
+            .chart{
+                margin: auto;
+                canvas{
+                    display: block;
+                    width: 500px;
+                    height: 250px;
+                    padding: 15px 30px;
+                    margin: auto;
+                }
+            }
+            
+        }
+    }
+    .polar-chart{ 
+        .chart-content-list{
+            width: 90%;
+            border-radius: 2px;
+            margin: auto;
+            .chart{
+                margin: auto;
+                canvas{
+                    display: block;
+                    width: 500px;
+                    height: 250px;
+                    padding: 30px 80px;
+                    margin: auto;
+                }
+            }
+            
+        }
+    }
+    .doughnut-pie-chart{ 
+        
+        .chart-content-list{
+            width: 90%;
+            border-radius: 2px;
+            margin: auto;
+            .chart{
+                margin: auto;
+                #demo-chart-pie{
+                }
+                canvas{
+                    display: block;
+                    width: 500px;
+                    height: 250px;
+                    padding: 40px 80px;
+                    margin: auto;
+                }  
+            }
+            
+            .traffic-content{
+                margin: auto;
+                #widget-traffic-sources-chart{
+                    display: block;
+                    height: 239px;
+                    width: 727px;
+                canvas{
+                    padding: 45px 85px;
+                    margin: auto;
+                } 
+            }
+        }
+    }
+    .demo-button{
+        text-align: center;
+        .btn-tooltips{
+            padding: 10px 25px;
+            height: 40px;
+            border-radius: 2px;
+            font-weight: 500;
+            color: #fff;
+        }
+        
+    }
+    
+}
+}

@@ -1,0 +1,295 @@
+@media only screen and (max-width: 1440px) {
+    .pagination .demo-content .demo-content-list-radius{
+        padding: 0 2%;
+    }
+    .navigation-content .navigation-content-list{
+        margin-bottom: 0!important;
+    }
+    
+}
+@media only screen and (max-width: 1024px) {
+    .demo.forms .form-content .demo-content-list.default .form-element .custom-content{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .demo.forms .form-content .demo-content-list.horizontal .form-element .content .form-checkbox{
+        padding-left: 45px;
+    }
+    .tables .col-md-8 .demo-content .demo-content-list.striped .tables-demo,
+    .tables .col-md-8 .demo-content .demo-content-list.bordered .tables-demo,
+    .tables .col-md-8 .demo-content .demo-content-list.hovered .tables-demo,
+    .tables .col-md-8 .demo-content .demo-content-list.condensed .tables-demo{
+        overflow-x: scroll;
+    }
+
+    .content-widget .col-md-3 .widget-carts{
+        margin: 2% 0;
+    }
+    .content-widget .widget-carts:last-child{
+    }
+    
+    .comments-button .cancel{
+        margin-top: 15px;
+    }
+    .button .button-content.icon .button-content-list .button-element .demo-button{
+        padding: 0px 21%;
+    }
+    .button .button-content.size .button-content-list .button-element .demo-button .btn-tooltips.r-100{
+        text-align: center;
+        margin: 0 25px;
+    }
+    .pagination .demo-content .demo-content-list-radius{
+        padding: 0 4%;
+    }
+    .cards .cards-box .progress-footer .percent-tittle span{
+    font-size: 18px;
+    }
+    .visits .user-list .project-content{
+    display: block!important;
+    }
+    .visits .site-visite{
+    display: block!important;
+    }
+    .traffic-source{
+        .trafic{
+            .traffic-footer{
+                padding: 35px 0;
+            }
+        }
+        .visits .user-list .project-content{
+        height: 222px!important;
+        }
+        .maps .map-footer .map-list{
+            padding: 0px 30px 0px 0px!important;
+            display: inline-block!important;
+            float: none!important;
+        }
+        .maps .map-footer{
+            margin-bottom: 0!important;
+            position: static!important;
+            padding: 0!important;
+            display: inline-block!important;
+        }
+        .maps .map-information{
+            margin-bottom: 0!important;
+        }
+        .maps .map-information .map-summary{
+            padding-bottom: 0px!important;
+        }
+        .maps .map-information .map-head{
+            margin-bottom: 5px!important;
+        }
+        .new-col-9 .pagination .demo-content .demo-content-list-radius{
+            padding: 0 3%;
+        }
+    
+    }
+    .tooltips .col-md-8 .tooltips-content .demo-content-list{
+        width: 90%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .new-col-2{
+        opacity: 0 !important;
+       transition: 0.2s ease;
+    }
+    .new-col-3{
+        transition: 0.2s ease;
+        .navbar {
+            padding-top:60px; 
+             width: 100% !important;
+             z-index: 50;
+             a.logo{
+                 display: none;
+             }
+        } 
+    }
+    .content{
+        overflow: hidden;
+    }
+    #change-col-10 {
+        overflow-y: hidden;
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        header {
+            z-index: 55;
+            width: 100% !important;
+            max-width: 100% !important;
+            top: -1px;
+            p{
+                display: none;
+            }
+        }
+    }
+    #demo-chart-polar-area-preview {
+        padding: 0px !important;
+    }
+    .google-map{
+        #demo-jqvmap{
+    
+                width: 100%!important;
+                height: 400px!important;
+                margin: auto;
+            
+            
+        }
+    }
+    .pagination .demo-content .demo-content-list-radius{
+        padding: 0 4%;
+    }
+    .new-col-10 .pagination .demo-content .demo-content-list-radius{
+        padding: 0 3%;
+    }
+    .content-widget .widget-carts{
+        margin: 3% 0 !important;
+    }
+    .comments-button{
+        div{
+            text-align: center;
+            display: block!important;
+        }
+        padding: 25px 20px!important;
+        
+        
+    }
+    .pd{
+        padding-top: 25px;
+    }
+    .mg{
+        margin-top: 25px;
+    }
+    .demo.forms .form-content .demo-content-list.horizontal .form-element .content .form-checkbox{
+        padding-left: 0;
+    }
+    div.charts .doughnut-pie-chart .chart-content-list .traffic-content #widget-traffic-sources-chart {
+        width: 100% !important;
+        height: 180px !important;
+    }
+    
+    
+}
+@media only screen and (max-width: 425px) {
+    .pagination .demo-content .demo-content-list{
+        width: 100%!important;
+        padding: 20px;
+
+    }
+    .new-col-10 .pagination .demo-content .demo-content-list-radius{
+        padding: 0 6%;
+    }
+    .demo-content .demo-content-list{
+        width: 80%;
+    }
+    #calendar{
+        display: none;
+    }
+    .recent-activity{
+        margin-top: 25px;
+    }
+    .recent-sales{
+        margin-top: 25px!important;
+    }
+    .demo.forms .form-content .demo-content-list.default .form-element .custom-content{
+        padding: 0 50px;
+        text-align: center;
+    }
+    .demo.forms .form-content .demo-content-list.horizontal .form-element .content .form-input label{
+        float: left;
+    }
+    #widget-traffic-sources-chart{
+        width: 350px !important;
+        height: 80px !important;
+        margin: auto;
+    }
+    
+}
+@media only screen and (max-width: 375px) {
+    .modals .modals-content .modals-content-list .modals-element .btn{
+        button{
+            display: block;
+            float: right;
+            margin-bottom: 2%;
+        }
+    } 
+    .button .button-content.size .button-content-list .button-element .demo-button .btn-tooltips.r-100{
+        margin: 0 49px!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-group-veriticals .btn-tooltips{
+        width: 44%!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-group-size .lg .btn-tooltips{
+        font-size: 14px!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-group-size li{
+        margin: 7%!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-group-size .lg .btn-tooltips{
+        height: 30px;
+        width: 30%!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-group-size .df .btn-tooltips{
+        height: 30px;
+        width: 25%!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-group-size .sm .btn-tooltips{
+        height: 30px;
+        width: 23%!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-group-size .xs .btn-tooltips{
+        height: 25px;
+        width: 20%!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .nesting .btn-tooltips{
+        font-size: 10px!important;
+        width: 17%!important;
+    }
+
+    
+}
+@media only screen and (max-width: 320px) {
+    .pagination .demo-content .demo-content-list{
+        padding: 0;
+    }
+    .pagination .demo-content .demo-content-list .demo-lists{
+        padding: 5px 12px;
+    }
+    .new-col-10 .pagination .demo-content .demo-content-list-radius{
+        padding: 6% 0;
+    }
+    .content-widget .row> .col-md-3:last-child .content-widget .widget-carts{
+        margin-bottom: 10%;
+    }
+    .button .button-content .button-content-list .button-element .demo-button .nesting .btn-tooltips{
+        padding: 10px 10px!important;
+    }
+    .button.group .button-content .button-content-list .button-element .demo-button .btn-toolbars li .btn-tooltips{
+        width: 40px!important;
+    }
+    .tables .table-content .demo-content-list{
+        width: 80%!important;
+    }
+    .demo.forms .form-content .demo-content-list.default .form-element .custom-content{
+        padding: 0;
+        text-align: center;
+    }
+    .demo.forms .form-content .demo-content-list.horizontal .form-element .content .form-checkbox{
+        padding-left: 0;
+    }
+    .demo.forms .form-content .demo-content-list.horizontal .form-element .content .demo-button button{
+        // width: 80px;
+    }
+    div.charts .doughnut-pie-chart .chart-content-list .traffic-content #widget-traffic-sources-chart{
+        width: 300px !important;
+        height: 80px !important;
+        margin: auto;
+    }
+    
+    
+}
+

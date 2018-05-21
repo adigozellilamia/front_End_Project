@@ -1,0 +1,383 @@
+
+.button{
+    .button-content{
+        .button-content-list{
+            .button-element{
+                font-size: 13px;
+                font-weight: 300;
+                padding: 25px 0;
+                .demo-button{
+                    text-align: center;
+                    button{
+                        width: 170px;
+                    }
+                    .btn-tooltips{
+                        padding: 10px 20px;
+                        margin: 10px 3px;
+                        height: 40px;
+                        border-radius: 3px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                    .btn-tooltips:focus{
+                        outline: none;
+                    }
+                }
+                .demo-button.radius{
+                    button{
+                        border-radius: 100%;
+                    }
+                }
+                
+            }
+            .button-element.center{
+                text-align: center;
+                .demo-button{
+                    .btn-tooltips{
+                        height: 40px;
+                        width: 150px;
+                        margin: 10px 15px;
+                        
+                        
+                    }                   
+                }  
+            }
+        }
+    }
+    .button-content.icon{
+        .button-content-list{
+            .button-element{
+                .demo-button{
+                    text-align: center;
+                    padding: 0px 14%;
+                    .btn-tooltips{
+                        margin: 20px 5px;
+                        padding: 0 19px;
+                        
+                    }
+                    button{
+                        width: auto;
+                    }
+                    
+                }
+                .demo-button.radius{
+                    .btn-tooltips{
+                        padding: 0;
+                        border-radius: 100%;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 14px;
+                        line-height: 50px;
+                        text-align: center;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                    .btn-tooltips:focus{
+                        outline: none;
+                    }
+                }
+                
+            }
+            
+            
+        }
+    }
+    .button-content.size{
+        .button-content-list{
+            .button-element{
+                .demo-button{
+                    ul.btn-size-lg{
+                        li{
+                            display: inline-block;
+                            .btn-tooltips{
+                                padding: 0;
+                                width: 160px;
+                                height: 60px;
+                                border-radius: 3px;
+                                font-weight: 500;
+                                color: #fff;
+                            }
+                            .btn-tooltips.r-100{
+                                border-radius: 100%;
+                                width: 60px;
+                                height: 60px;
+
+                            }
+
+                        }
+                        
+                    }
+                    ul.btn-size-df{
+                        li{
+                            display: inline-block;
+                            .btn-tooltips{
+                                padding: 0;
+                                width: 160px;
+                                height: 35px;
+                                border-radius: 3px;
+                                font-weight: 500;
+                                color: #fff;
+                            }
+                            .btn-tooltips.r-100{
+                                border-radius: 100%;
+                                width: 50px;
+                                height: 50px;
+
+                            }
+
+                        }
+                        
+                    }
+                    ul.btn-size-sm{
+                        li{
+                            display: inline-block;
+                            .btn-tooltips{
+                                padding: 0;
+                                width: 160px;
+                                height: 40px;
+                                border-radius: 3px;
+                                font-weight: 500;
+                                color: #fff;
+                            }
+                            .btn-tooltips.r-100{
+                                border-radius: 100%;
+                                width: 40px;
+                                height: 40px;
+
+
+                            }
+
+                        }
+                        
+                    }
+                    ul.btn-size-xs{
+                        li{
+                            display: inline-block;
+                            .btn-tooltips{
+                                padding: 0;
+                                width: 160px;
+                                height: 30px;
+                                border-radius: 3px;
+                                font-weight: 500;
+                                color: #fff;
+                            }
+                            .btn-tooltips.r-100{
+                                border-radius: 100%;
+                                width: 35px;
+                                height: 35px;
+
+
+                            }
+
+                        }
+                        
+                    }
+                    ul.btn-size-block{
+                        li{
+                            display: block;
+                            .btn-tooltips{
+                                padding: 0;
+                                width: 90%;
+                                height: 35px;
+                                border-radius: 3px;
+                                font-weight: 500;
+                                color: #fff;
+                            }
+
+                        }
+                        
+                    }
+                    ul.btn-size-lg{
+                        .btn-tooltips{
+                            padding: 20px 10px;
+                        }
+                    }
+                    
+                    button.r-100{
+                        border-radius: 100%;
+                        // width: auto;
+                    }
+                    
+                }
+                
+                
+            }
+            
+            
+        }
+    }
+    
+    
+}
+.button.group{
+    border-top:1px solid $grey;
+    .button-content{
+        .button-content-list{
+            .button-element{
+                .demo-button{
+                    button{
+                    }
+                    .btn-tooltips{
+                        padding: 10px 15px;
+                        font-size: 13px;
+                        margin: -3px;
+                        border: none;
+                        border-radius: 0;
+                        height: 35px;
+                        width: auto;
+                    }
+                    .btn-tooltips:nth-child(2){
+                        transform: scaleX(1.1);
+                    }
+                    .btn-tooltips:first-child{
+                        border-top-left-radius: 3px;
+                        border-bottom-left-radius: 3px;
+                    }
+                    .btn-tooltips:last-child{
+                        border-top-right-radius: 3px;
+                        border-bottom-right-radius: 3px;
+                    }
+                    .btn-tooltips:focus{
+                    }
+                }
+                .demo-button{
+                    .btn-toolbars li{
+                        display: inline-block;
+                        margin-right: 2%;
+
+                        .btn-tooltips{
+                            margin: -1px;
+                            border: none;
+                            border-radius: 0;
+                            height: 35px;
+                            width: 50px;
+                            line-height: 1;
+                        }
+                        .btn-tooltips:first-child{
+                            border-top-left-radius: 3px;
+                            border-bottom-left-radius: 3px;
+                        }
+                        .btn-tooltips:last-child{
+                            border-top-right-radius: 3px;
+                            border-bottom-right-radius: 3px;
+                        }
+                    }
+                } 
+                .demo-button{
+                    .btn-group-veriticals{
+                        width: 80%;
+                        margin: auto;
+                        
+                        .btn-tooltips{
+                            display: block;
+                            margin: auto;
+                            border: none;
+                            border-radius: 0;
+                            height: 35px;
+                            width: 20%;
+                            line-height: 1;
+                        }
+                        .btn-tooltips:first-child{
+                            border-top-left-radius: 3px;
+                            border-top-right-radius: 3px;
+                        }
+                        .btn-tooltips:last-child{
+                            border-bottom-right-radius: 3px;
+                            border-bottom-left-radius: 3px;
+                        }
+                        .btn-tooltips:nth-child(2){
+                            transform: scaleY(1.1);
+                        }
+                    }
+                     
+                }
+                .demo-button{
+                    .btn-group-size{
+                        width: 80%;
+                        margin: auto;
+                        li{
+                            margin: 5%;
+                        }
+                        .lg{
+                            .btn-tooltips{
+                                height: 50px;
+                                width: 20%;
+                                font-size: 18px;
+                            }
+                        }
+                        .df{
+                            .btn-tooltips{
+                                height: 35px;
+                                width: 18%;
+                            }   
+                        }
+                        .sm{
+                            .btn-tooltips{
+                                height: 30px;
+                                width: 15%;
+                            }
+                        }
+                        .xs{
+                            .btn-tooltips{
+                                height: 25px;
+                                width: 10%;
+                            }
+                        }
+                        
+                        .btn-tooltips{
+                            margin: -1px;
+                            padding: 0;
+                            border: none;
+                            border-radius: 0;
+                            height: 35px;
+                            width: 20%;
+                            line-height: 1;
+                        }
+                        .btn-tooltips:first-child{
+                            border-top-left-radius: 3px;
+                            border-bottom-left-radius: 3px;
+                        }
+                        .btn-tooltips:last-child{
+                            border-top-right-radius: 3px;
+                            border-bottom-right-radius: 3px;
+                        }
+                        .btn-tooltips:nth-child(2){
+                            transform: scaleX(1.1);
+                        }
+                    }
+                     
+                }
+                .demo-button{
+                    .btn-justify{
+                        width: 100%;
+                        margin: auto;
+                        .btn-tooltips{
+                            margin: -1px;
+                            border: none;
+                            border-radius: 0;
+                            height: 35px;
+                            width: 30%;
+                            line-height: 1;
+                        }
+                        .btn-tooltips:nth-child(2){
+                            transform: scaleX(1.1);
+                        }
+                        .btn-tooltips:first-child{
+                            border-top-left-radius: 3px;
+                            border-bottom-left-radius: 3px;
+                        }
+                        .btn-tooltips:last-child{
+                            border-top-right-radius: 3px;
+                            border-bottom-right-radius: 3px;
+                        }
+                        .btn-tooltips:focus{
+                        }
+                    }
+                    
+                }
+           
+            }
+            
+        }
+    }
+}

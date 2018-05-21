@@ -1,0 +1,50 @@
+
+.popovers{
+    .demo-content{
+        .popover-content-list{
+            .popovers-element{
+                font-size: 13px;
+                font-weight: 300;
+                padding: 50px 15px;
+                .demo-button{
+                    text-align: center;
+                    .btn-tooltips{
+                        padding: 10px 25px;
+                        margin-bottom: 40px;
+                        height: 40px;
+                        border-radius: 2px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                    .btn-tooltips:focus{
+                        outline: none;
+                    }
+                }
+                
+            }
+            .popovers-element.center{
+                text-align: center;
+                .demo-button{
+                    .btn-tooltips{
+                        height: 40px;
+                        width: 150px;
+                        margin: 10px 15px;
+                        
+                    }                   
+                }  
+            }
+            .popovers-element.dismissible{
+                .demo-button{
+                    .btn-tooltips{
+                        height: 40px;
+                        width: 220px;
+                        margin: 0;
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}

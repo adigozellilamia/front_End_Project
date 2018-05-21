@@ -1,0 +1,314 @@
+
+.demo.forms{
+    .form-content{
+        .demo-content-list{
+            width: 50%;
+            padding: 15px;
+            .form-element{
+                .content{
+                    font-weight: 300;
+                   
+                    .form-input{
+                        margin-bottom: 15px;
+                        label{
+                            display: inline-block;
+                            margin-bottom: 5px;
+                            font-weight: 300;
+
+                        }
+                        input{
+                            display: block;
+                            width: 100%;
+                            padding: 6px 12px;
+                            background-color: transparent;
+                            border: solid 1px #e7e7e7;
+                        }
+                    }
+                    .form-file{
+                        margin-bottom: 15px;
+                        label{
+                            display: inline-block;
+                            margin-bottom: 5px;
+                            font-weight: 300;
+                        }
+                        input{
+                            display: block;
+
+                        }
+                        p{
+                            display: block;
+                            margin-top: 5px;
+                            margin-bottom: 10px;
+                            color: #737373;
+                        }
+                    }
+                    .form-checkbox{
+                        display: block;
+                        margin-bottom: 15px;
+                        max-height: 30px;
+                        span{
+                            width: 22px;
+                            height: 22px;
+                            line-height: 22px;
+                            display: inline-block;
+                            // padding: 2px 15px 1px 4px;
+                            text-align: center;
+                            border: 1px solid #e7e7e7;
+                            position: relative;
+
+                        }
+                        
+                        label{
+                            transform: translateY(-7px);
+
+                        }
+                        label.line{
+                            transform: translateY(-1px);
+                        }
+                    }
+                    .demo-button{
+                        display: inline-block;
+                        position: relative;
+                        button{
+                            width: 110px;
+                            height: 35px;
+                            margin-right: 5px;
+                            border-radius: 3px;
+                            font-weight: 500;
+                        }
+                    }
+                }  
+            }
+        }
+        .demo-content-list.horizontal{
+            width: 90%;
+            
+
+            .form-element{
+                .content{
+                    font-weight: 300;
+                    padding: 40px 15px 30px 15px;
+                    .form-input{
+                        margin-bottom: 15px;
+                        text-align: center;
+                        label{
+                            padding-top: 7px;
+                            margin-bottom: 0;
+                            display: inline-block;
+                            font-weight: 300;
+
+                        }
+                        input{
+                            display: inline-block;
+                            width: 100%;
+                            padding: 6px 12px;
+                            background-color: transparent;
+                            border: solid 1px #e7e7e7;
+
+                        }
+                    }
+                    .form-file{
+                        margin-bottom: 15px;
+                        label{
+                            display: inline-block;
+                            margin-bottom: 5px;
+                            font-weight: 300;
+                        }
+                        input{
+                            display: block;
+
+                        }
+                        p{
+                            display: block;
+                            margin-top: 5px;
+                            margin-bottom: 10px;
+                            color: #737373;
+                        }
+                    }
+                    .form-checkbox{
+                        display: inline-block;
+                        margin-bottom: 15px;
+                        padding-left: 65px;
+                        .checkbox{
+                            max-height: 40px;
+                            width: 22px;
+                            height: 22px;
+                            line-height: 22px;
+                            display: inline-block;
+                            text-align: center;
+                            border: 1px solid #e7e7e7;
+
+                        }
+                        
+                    }
+                    .demo-button{
+                        display: inline-block;
+                        position: relative;
+                        button{
+                            width: 90px;
+                            height: 35px;
+                            margin-right:0px;
+                        }
+
+
+                    }
+                }
+               
+            }
+        }
+        .demo-content-list.custom{
+            font-weight: 300;
+            width: 90%;
+            padding: 40px 15px;
+            .form-element{
+                .custom-content{
+                    li{
+                        
+                        width: 50%;
+                        display: block;
+                        
+                    }
+                    li.left{
+                        .custom-checkbox{
+                            position: relative;
+                            margin: 0px;
+                            max-height: 40px;
+                            .checkbox{
+                                
+                                margin: 10px 0;
+                                width: 22px;
+                                height: 22px;
+                                line-height: 22px;
+                                text-align: center;
+                                display: inline-block;
+                                color: #ffffff;
+                             
+                            }
+                            .label{
+                                position: absolute;
+                                top: 11px;
+                                left: 30px;
+                            }
+                           
+                            p{
+                                position: absolute;
+                                
+                            }
+                        }
+                    }
+                    li.right{
+                        .custom-checkbox{
+                            position: relative;
+                            margin: 0px;
+                            max-height: 40px;
+                            .checkbox,.radio{
+                                border-radius: 100%;
+                                margin: 10px 0;
+                                width: 22px;
+                                height: 22px;
+                                line-height: 22px;
+                                text-align: center;
+                                display: inline-block;
+                            }
+                            .label{
+                                position: absolute;
+                                top: 11px;
+                                left: 30px;
+                            }
+                            p{
+                                position: absolute;
+                            }
+                        }  
+                    }  
+                }
+                .custom-checkbox:first-child .checkbox,
+                .custom-checkbox:first-child .radio{
+                    color: black!important;
+                }
+            }
+        }
+        .demo-content-list.default{
+            font-weight: 300;
+            width: 90%;
+            padding: 40px 15px;
+            .form-element{
+                .custom-content{
+                    
+                    .custom-checkbox{
+                        display: inline-block;
+                        margin-right: 4px;
+                        div{
+                            
+                        }
+                        .checkbox{
+                            margin-right: 3px;
+                            // margin: 10px 0;
+                            width: 18px;
+                            height: 18px;
+                            line-height: 18px;
+                            text-align: center;
+                            display: inline-block;
+                            float: left;
+                            border: solid 1px #e7e7e7;  
+                            i{
+                                color: white;
+                            }  
+                        }
+                        .radio{
+                            margin-right: 3px;
+                            border-radius: 100%;
+                            width: 18px;
+                            height: 18px;
+                            line-height: 18px;
+                            text-align: center;
+                            display: inline-block;
+                            float: left;
+                            border: solid 1px #e7e7e7;
+                        }
+                       
+                    }
+                    .custom-checkbox:first-child .checkbox i,
+                    .custom-checkbox:first-child .radio i{
+                    color: black!important;
+                    }
+                }
+                
+            }
+        }
+    }
+    
+    
+}
+.checkbox, .radio{
+    border: solid 1px #e7e7e7!important;
+}
+.checkbox.br-green:hover,
+.radio.br-green:hover{
+    border-color: #16d232;
+    transition: all 0.3s ease-in-out;
+}
+.checkbox.br-green:hover,
+.radio.br-green:hover{
+    border-color: #8a78ad;
+    transition: all 0.3s ease-in-out;
+}
+.checkbox.br-green:hover,
+.radio.br-green:hover{
+    border-color: #25b6c5;
+    transition: all 0.3s ease-in-out;
+}
+.checkbox.br-green:hover,
+.radio.br-green:hover{
+    border-color: #00daf6;
+    transition: all 0.3s ease-in-out;
+}
+.checkbox.br-green:hover,
+.radio.br-green:hover{
+    border-color: #ef6a3e;
+    transition: all 0.3s ease-in-out;
+}
+.checkbox.br-green:hover,
+.radio.br-green:hover{
+    border-color: #e73b77;
+    transition: all 0.3s ease-in-out;
+}
